@@ -102,7 +102,7 @@ const salvar = () => {
 <template>
   <main>
     <div>
-      <p>http://pastebin.dr6.com.br/</p>
+      <p>pastebin.dr6.com.br/</p>
       <div>
         <input type="text" v-model="paste.title" placeholder="título" :class="{error: error}">
         <button v-if="paste.text" @click="salvar">Salvar</button>

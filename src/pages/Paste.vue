@@ -2,7 +2,7 @@
     <main>
         <div>
             <h2 v-if="paste.title !== paste.slug">{{paste.title}}</h2>
-            <h3>http://pastebin.dr6.com.br/{{paste.slug}}</h3>
+            <h3>https://pastebin.dr6.com.br/{{paste.slug}}</h3>
         </div>
         <Paste :text="paste.text"/>
     </main>
